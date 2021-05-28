@@ -1,0 +1,677 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DiegoAvena'sPortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="container">
+				<li><a href="#top">About</a></li>
+				<li><a href="#ProgrammingProjects">Programming Projects</a></li>
+				<li><a href="#IOSDevelopment">IOS Development</a></li>
+				<li><a href="#GameDevelopment">Game Development</a></li>
+				<li><a href="#SocialMedia">Social Media</a></li>
+			</ul>
+		</nav>
+
+		<!-- Home -->
+		<article id="top" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img src="images/websitePortrait(Temporary).jpg" alt="" /></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<header>
+							<h1>Welcome. I'm <strong>Diego Avena</strong>.</h1>
+						</header>
+						<p>I am situated in Whittier, Southern California, and recently graduated from Chapman University with a Bachelor's Degree in Computer Science and a minor and Game development. I currently am working on finishing up a 2D platformer game I started with a group of friends from Chapman University; it is called Sengoku (feel free to check out my section on it if you are interested)</p>
+						<p>
+							I really started getting into programming after playing Minecraft. I was amazed at how such a game can be developed, and I remember seeing this <a href="https://www.youtube.com/watch?v=BES9EKK4Aw4">video</a> where the creator, Notch, plays around with the mechanics of
+							the game just by changing a bit of Java code, and I knew then that programming was something I wanted to learn. Some other big motivators were games like The Last of Us: the game's ability to make the player feel like they are actually in
+							the stories' apocalyptic world to the impact the story leaves on the player at the end - all of this showed me how powerful programming can be and I wanted to learn it even more.
+						</p>
+						<p>
+							I am also very interested in outer space, and this was another big motivator for getting into computer science. The software that guided all of those rockets in space, from the Saturn 5 rocket to the numerous landings made by NASA rovers on Mars - all of this
+							was really inspiring and only made me want to learn programming even more.
+						</p>
+						<p>
+							Besides programming, I also (you could have probably guessed this) like playing video games (Hollow Knight and Ori and the Will of the Wisps being my favorites as of now). On my spare time, I also enjoy designing and building my own creations out of the lego
+							collection I managed to accumulate over many years. I am also really into architecture, and occasionally sketch out some house drawings.
+						</p>
+						<p>Well, that's enough about me for now. <strong>On this website I have collected links to all of my programming work and game dev projects.</strong> Feel free to check them out! You can also play a couple of the games I have worked on!</p>
+						<p>Thanks for stopping by!</p>
+						<a href="#work" class="button large scrolly">Learn about what I do</a>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<!-- Work -->
+		<article id="work" class="wrapper style2">
+			<div class="container">
+				<header>
+					<h2>Overview of what I do.</h2>
+				</header>
+				<div class="row aln-center">
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<span class="image centered img"><img src="programmingIcon.png"></span>
+							<h3>Programming <br /> Projects</h3>
+							<p>
+								Besides IOS development and game development, I have completed a variety of smaller programming
+								projects, using languages like C++, Java, and Python.
+							</p>
+							<a href="#ProgrammingProjects" class="button large scrolly">See more</a>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<span class="image centered img"><img src="iosDevIcon.png"></span>
+							<h3>IOS <br />Development</h3>
+							<p>
+								Using Swift and the framework called Spritekit, I have programmed 5 IOS games, 4 of which
+								were on the app store for about a year.
+							</p>
+							<a href="#IOSDevelopment" class="button large scrolly">See more</a>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<span class="image centered img"><img src="gameDevIcon.png"></span>
+							<h3>
+								Game <br />
+								Development
+							</h3>
+							<p>
+								Using Unity and C#, I have programmed 4 games. I have also done some of the art for these games,
+								and made custom shaders for enhanced visuals.
+							</p>
+							<a href="#GameDevelopment" class="button large scrolly">See more</a>
+						</section>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<!-- Programming Projects -->
+		<article id="ProgrammingProjects" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>Programming Projects</h2>
+					<p>Below are some of the programming projects I have worked on</p>
+				</header>
+
+				<!--C++ PROJECTS-->
+				<div class="container">
+
+					<header>
+						<h3>C++ Projects</h3>
+					</header>
+
+					<h4>Miscellaneous</h4>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/DNASequencer">DNA Sequencer</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/DNASequencer" class="image featured"><img src="images/DNASequencer.png" alt="" /></a>
+								<p>
+									Takes an input file with any number of DNA strands that each have an even length, and computes the mean, standard deviation, and variance of the lengths.
+									It also computes the probability of each nucleotide and nucleotide pair. Lastly, 1000 DNA strands are generated with nucleotides that are at or near the same frequency as
+									calculated in the inputed file. The lengths of these DNA strands also follow a gaussian distribution. All of this is written onto a file labeled diegoavena.out.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/TheGameOfLife">The Game of Life</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/TheGameOfLife" class="image featured"><img src="images/GameOfLife.png" alt="" /></a>
+								<p>An implementation of Conway's Game of Life, a bacterial growth simulutor!</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/BasicSyntaxChecker">Basic Syntax Checker</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/BasicSyntaxChecker" class="image featured"><img src="images/BasicSyntaxChecker.png" alt="" /></a>
+								<p>
+									Checks if each opening delimiter matches each closing delimiter in a source code file written in any language.
+									If a mistake is detected, the potential line numbers, along with the cause of the mistake, are printed out to the user,
+									and the program exits for them to correct that error. Only 1 error is printed out to the user per run of this program.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/RegistrarsOfficeSimulator">Registrar's Office Simulator</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/RegistrarsOfficeSimulator" class="image featured"><img src="images/registrarsOfficeScreenshot.png" alt="" /></a>
+								<p>
+									Simulates the window idle times and student wait times in a registrar office.
+									Time used here can be in any unit, but in this project the time is printed out
+									as minutes.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/StudentAndFacultyDatabase">Student and faculty database</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/StudentAndFacultyDatabase" class="image featured"><img src="images/StudentAndFacultyDatabase.png" alt="" /></a>
+								<p>
+									A graph based database system that makes use of Binary Search trees to keep track of faculty and student records.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/SortingAlgorithmPerformanceTester">Sorting Algorithm Performance Tester</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/SortingAlgorithmPerformanceTester" class="image featured"><img src="images/sortingAlgorithmPerformanceTester.png" alt="" /></a>
+								<p>
+									In this program, the following algorithms are implemented and tested for their speeds and memory
+									consumption: Bubble Sort, Insertion Sort, Quick Sort, and Merge Sort.
+								</p>
+							</article>
+						</div>
+					</div>
+
+					<h4>Data Structures</h4>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/DoublyLinkedList">Doubly Linked List</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/DoublyLinkedList" class="image featured"><img src="images/DoublyLinkedListIcon.png" alt="" /></a>
+								<p>
+									A custom implementation of a Doubly Linked List data structure.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href="https://github.com/DiegoAvena/BinarySearchTree">Binary Search Tree</a></h3>
+								<br />
+								<br />
+								<a href="https://github.com/DiegoAvena/BinarySearchTree" class="image featured"><img src="images/binarySearchTreeIcon.png" alt="" /></a>
+								<p>
+									A BST data structure that orders nodes based on their keys in such a way that nodes with keys less than the root go to the left,
+									and nodes with keys greater than the root go to the right, and so on and so forth.
+									NOTE: This BST does not contain any mechanism to keep itself balanced.
+								</p>
+							</article>
+						</div>
+					</div>
+
+				</div>
+
+				<br />
+
+				<!--Java projects-->
+				<div class="container">
+
+					<header>
+						<h3>Java Projects</h3>
+					</header>
+
+					<h4>Miscellaneous</h4>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/TcpTicTacToe>TCP Tic Tac Toe</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/TcpTicTacToe class="image featured"><img src="images/TcpTicTacToe.png" alt="" /></a>
+								<p>
+									A tic tac toe game that can be played with 1 other person given their IP address.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/BestFirstSearchRobotNavigation>Best First Search Robot Navigation</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/BestFirstSearchRobotNavigation class="image featured"><img src="images/BestFirstSearchRobotNavigation.png" alt="" /></a>
+								<p>
+
+									Finds the path a robot can take from a starting position, marked i to a final position on a 2D, NxN grid.
+									The path is marked by a series of Os on the solution grid.
+
+								</p>
+							</article>
+						</div>
+					</div>
+
+					<h4>Operating Systems Concepts</h4>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/Basic-Multithreading>Basic Multithreading</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/Basic-Multithreading class="image featured"><img src="images/marcoAndPolo.png" alt="" /></a>
+								<p>
+									Demonstrates the use of multithreading in Java by running 2 threads: 1 thread prints Marco every 10 secs for a total of 10 times,
+									and another thread prints Polo with a newline character appended every 10 secs for a total of 10 times.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/MoreAdvancedMultithreadingWithSodoku>More Advanced Multithreading with Sodoku</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/MoreAdvancedMultithreadingWithSodoku class="image featured"><img src="images/SodokuValidator.png" alt="" /></a>
+								<p>
+									A program that validates a completed 9x9 Sudoku puzzle. If any mistakes are made, it also makes suggestions
+									to the user on how they can correct those mistakes. The program also contains a GUI made with the framework
+									called Swing. Multithreading is also used to increase the performance of the validation checks.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/UsingSemaphores>Using Semaphores</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/UsingSemaphores class="image featured"><img src="images/UsingSemaphores.png" alt="" /></a>
+								<p>
+									This project simulates 2 seesaw riders named Fred and Wilma who
+									take turns pushing up and down on the seesaw. Semaphores are used to insure that
+									only 1 person pushes up at a time, allowing the riders to take turns. The output of
+									the program contains the height that each person is at for each simulation run, where 1 simulation
+									is represented by the a specific person going up and then down, or down and then up.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/RateMonotonicSchedular>Rate Monotonic Schedular</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/RateMonotonicSchedular class="image featured"><img src="images/RMS.png" alt="" /></a>
+								<p>
+									A rate monotonic schedular that manages the scheduling of 4 threads that contain different processing needs.
+								</p>
+							</article>
+						</div>
+					</div>
+
+				</div>
+
+				<br />
+
+				<!--Python projects-->
+				<div class="container">
+
+					<header>
+						<h3>Python Projects</h3>
+					</header>
+
+					<h4>Python and SQL</h4>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/StudentDatabaseWithSQLite > Student Database with SQLite</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/StudentDatabaseWithSQLite class="image featured"><img src="images/studentDatabaseWithSQLite.png" alt="" /></a>
+								<p>
+									Creates a table from a spreadsheet, and allows the user to perform searches for students based on their major, GPA,
+									advisor, etc. Also allows the user to update student information, add new students into the table, and delete
+									students from the table.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/TheUniverseDatabase> The Universe Database</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/TheUniverseDatabase class="image featured"><img src="images/TheUniverseDatabase.png" alt="" /></a>
+								<p>
+									This program creates a local mysql database and loads universe data into it from a table called UniverseRawData.
+									This table combines data from various resources, referenced below, that document information on things about our
+									universe such as the various exoplanets, galaxies, stars, and moons we know about. 
+								</p>
+							</article>
+						</div>
+					</div>
+
+				</div>
+
+				<br />
+
+				<!--Shell projects-->
+				<div class="container">
+
+					<header>
+						<h3>Shell Projects</h3>
+					</header>
+
+					<h4>Miscellaneous</h4>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/cars> Cars</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/cars class="image featured"><img src="images/carsScreenShot.png" alt="" /></a>
+								<p>
+									A bash script named “cars.sh” that will help a user maintain an inventory of old cars.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/numbers> numbers</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/numbers class="image featured"><img src="images/numbersScreenShot.png" alt="" /></a>
+								<p>
+									A bash script that prompts the user for a positive integer and prints all the numbers from 1 up to that number (inclusive), it will also
+									print if each number displayed is odd or even.
+								</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/username> username</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/username class="image featured"><img src="images/userNameScreenShot.png" alt="" /></a>
+								<p>
+									A bash script to check whether a string satisfies the requirements for a username.
+								</p>
+							</article>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</article>
+
+		<!-- IOS Development -->
+		<article id="IOSDevelopment" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>IOS Development</h2>
+					<p>Here are all 5 IOS games and other IOS apps I have made using Swift inside of XCode.</p>
+				</header>
+
+				<div class="container">
+
+					<header>
+						<h3>Apps</h3>
+					</header>
+
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/d_avena_357_Project03> GUI Simple Password Manager</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/d_avena_357_Project03 class="image featured"><img src="images/PasswordManagerIcon.png" alt="" /></a>
+								<p>
+									An ios app that allows multiple users to store passwords and even set a master password that prevents others from
+									viewing their stored passwords unless they know that master password All passwords are also stored after
+									being encrypted with caesars cipher
+								</p>
+							</article>
+						
+					</div>
+
+				</div>
+
+				<br />
+
+				<div class="container">
+
+					<header>
+						<h3>Games with spritekit</h3>
+					</header>
+
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://diegoavenagames.weebly.com/> Fiery Rocks</a></h3>
+								<br />
+								<br />
+								<a href=https://diegoavenagames.weebly.com/ class="image featured"><img src="images/FieryRocksScreenShot.png" alt="" /></a>
+								<p>
+									In this game, you must prepare yourself to think fast and dodge asteroids to score points.
+									Survive for as long as possible, and obtain the highest score. Be careful though, the asteroids start falling faster and faster,
+									requiring you to react faster and faster!
+								</p>
+								<p><strong>Was on appstore from 2017-2019</strong></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://diegoavenagames.weebly.com/lava-panic.html> Lava Panic</a></h3>
+								<br />
+								<br />
+								<a href=https://diegoavenagames.weebly.com/lava-panic.html class="image featured"><img src="images/lavaPanicScreenShot.png" alt="" /></a>
+								<p>
+									A classic style of gameplay where you must compete for the highest score by jumping on platforms to avoid falling into the lava.
+									You can also collect coins scattered throughout the platforms in order to purchase power ups that will allow you, if used correctly,
+									to gain higher scores!
+								</p>
+								<p><strong>Was on appstore from 2017-2019</strong></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://diegoavenagames.weebly.com/pixel-packing.html> Pixel Packing</a></h3>
+								<br />
+								<br />
+								<a href=https://diegoavenagames.weebly.com/pixel-packing.html class="image featured"><img src="images/pixelPackingScreenShot.png" alt="" /></a>
+								<p>
+									Pixel Packing is a game where you must work to match colors to the correct box for as long as possible.
+									Watch out though, the levels will reach a faster speed, forcing you to increase your reaction speed.
+								</p>
+								<p><strong>Was on appstore from 2017-2019</strong></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://diegoavenagames.weebly.com/pixel-cruise.html> Pixel Cruise</a></h3>
+								<br />
+								<br />
+								<a href=https://diegoavenagames.weebly.com/pixel-cruise.html class="image featured"><img src="images/pixelCruiseScreenShot.png" alt="" /></a>
+								<p>
+									Pick a car you want to drive and weave your way through traffic to earn the highest score you can!
+									Traffic is not the only thing to worry about though. If you drive to slow, you may lose as well,
+									and there are different street patterns that you will need to be careful for. 
+								</p>
+								<p><strong>Was on appstore from 2017-2019</strong></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3><a href=https://github.com/DiegoAvena/Adjust > Adjust!</a></h3>
+								<br />
+								<br />
+								<a href=https://github.com/DiegoAvena/Adjust class="image featured"><img src="images/AdjustScreenShot.png" alt="" /></a>
+								<p>
+									The goal of the game is for the player to swipe vertical platform groups up or
+									down in order to adjust the gap between the platforms so that a red cube, which moves up and down, can pass safely.
+									The player must do this for as long as they can.
+								</p>
+							</article>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</article>
+
+		<!-- Game Development -->
+		<article id="GameDevelopment" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>Game development</h2>
+					<p>Here are all 4 games I have developed in Unity.</p>
+				</header>
+
+				<div class="container">
+
+					<header>
+
+						<h3>Games I did on my own</h3>
+
+					</header>
+
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href=https://diegendo.itch.io/the-gloom class="image featured"><img src="images/TheGloomScreenshot.png" alt="" /></a>
+								<h3><a href=https://diegendo.itch.io/the-gloom> The Gloom </a></h3>
+								<p>
+									The Gloom will be a 2D Shooter set in a zombie infested city. The player will meet many enemies along the way and go on a journey
+									that will lead them to a shocking discovery about the source of the zombie outbreak, and what their world really is.
+								</p>
+								<br />
+								<p><strong>Playable in browser!</strong></p>
+							</article>
+						</div>
+					</div>
+
+				</div>
+
+				<br />
+
+				<div class="container">
+
+					<header>
+
+						<h3>Games I did with a team</h3>
+
+					</header>
+
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href=https://diegendo.itch.io/operationdz class="image featured"><img src="images/OperationDZScreenShot.png" alt="" /></a>
+								<h3><a href=https://diegendo.itch.io/operationdz> OperationDZ</a></h3>
+								<p>
+									OperationDZ is a 2D zombie side scroller where players may team up in a squad of 4 to battle against endless waves of the undead, or go solo against the undead.
+									Good luck!
+
+									<br> <br>
+
+									<strong>Won Best Art and Fans choice Award at the Panther Games Winter Showcase 2018!</strong>
+
+								</p>
+								<br />
+								<p><strong>Playable in browser!</strong></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href=https://sengokuproductions.itch.io/sengoku class="image featured"><img src="images/SengokuScreenShot.png" alt="" /></a>
+								<h3><a href=https://sengokuproductions.itch.io/sengoku> Sengoku - A Time of Warriors and Demons</a></h3>
+								<p>
+									A 2D action platformer set in the Sengoku era of Japan. The player fights through numerous enemies and bosses in hopes
+									of saving their kingdom under siege. 
+
+									<br> <br>
+
+									<strong>Recently won 3rd place at IEEE GameSig Awards 2021!</strong>
+
+								</p>
+								<br />
+								<p><strong>Downloadable!</strong></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href=https://jankygamestudios.itch.io/bionicle-smackdown class="image featured"><img src="images/VS.png" alt="" /></a>
+								<h3><a href=https://jankygamestudios.itch.io/bionicle-smackdown> Bionicle Smackdown </a></h3>
+								<p>
+									A multiplayer based PVP game, fight and kill your opponent to win!
+								</p>
+								<br />
+								<p><strong>Playable in browser!</strong></p>
+							</article>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+		</article>
+
+		<!-- Contact -->
+		<article id="SocialMedia" class="wrapper style4">
+			<div class="container medium">
+				<div class="row">
+					<div class="col-12">
+						<hr />
+						<h3>Social Media</h3>
+						<p>These are my social media. Thanks for stopping by!</p>
+						<ul class="social">
+							<li><a href=https://www.facebook.com/diego.avena.9 class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href=https://www.linkedin.com/in/diego-avena-289655183/ class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href=https://github.com/DiegoAvena class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href=https://www.instagram.com/diegendo/?hl=en class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+
+							<!--
+							<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+							<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+							<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+							<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+							<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+							<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+							<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+							-->
+						</ul>
+						<hr />
+					</div>
+				</div>
+				<footer>
+					<ul id="copyright">
+						<li>&copy; Diego Avena. All rights reserved.</li>
+						<li>Base design from: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+			</div>
+		</article>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
